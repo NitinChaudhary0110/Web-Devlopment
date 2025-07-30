@@ -9,7 +9,7 @@ This repo contains a collection of small to intermediate-level web development p
 
 | No. | Project Name            | Description                                                  |
 |-----|-------------------------|--------------------------------------------------------------|
-| 01  | **Portfolio Website**   | A personal portfolio to showcase skills and contact info     |
+| 01  | **MY TODO APP**         | A personal portfolio to showcase skills and contact info     |
 | 02  | **Landing Page**        | A responsive landing page using modern CSS layout techniques |
 | 03  | **To-Do List App**      | A dynamic to-do list with add/delete functionality           |
 | 04  | **Calculator**          | A simple calculator using HTML, CSS, and JavaScript          |

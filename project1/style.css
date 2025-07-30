@@ -1,0 +1,87 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee); /* gradient background */
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Input and Button */
+input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px; /* more spacing */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 1px; /* letter spacing added */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+li {
+  background-color: #ffffff;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete Button */
+li button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  font-size: 14px;
+}
+
+li button:hover {
+  background-color: #b52a37;
+}
+
+.input-group {
+  display: flex;
+  gap: 15px; /* space between input and button */
+  margin-bottom: 20px;
+}
+
